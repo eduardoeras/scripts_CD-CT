@@ -1,0 +1,93 @@
+
+[1;32m==>[0m Moduling environment for MONAN model...
+
+PBS detected.
+Host detected: ian
+Compiler to be used: intel
+GrADS 2.2.1.oga.1 module loaded
+Type 'grads' to start the Grid Analysis and Display System
+Currently Loaded Modulefiles:
+  1) intel/2025.0                     11) cray-netcdf/4.9.0.15
+  2) craype/2.7.33                    12) cray-parallel-netcdf/1.12.3.15
+  3) cray-dsmml/0.3.0                 13) xpmem/0.2.119-1.3_gef379be13330
+  4) libfabric/1.22.0                 14) grads/2.2.1.oga.1
+  5) craype-network-ofi               15) cdo/2.4.2
+  6) cray-mpich/8.1.31                16) GKlib/1.0.0
+  7) cray-libsci/24.11.0              17) METIS/5.1.0
+  8) PrgEnv-intel/8.6.0               18) cray-libpals/1.6.1
+  9) craype-x86-turin                 19) cray-pals/1.6.1
+ 10) cray-hdf5/1.14.3.3
+
+---- Pre Processing ----
+
+[1;32m==>[0m Scripts_CD-CT last commit: 
+
+commit 3300a94f1e91f2e602c8517b062fb5175dab03be
+[1;32m==>[0m File x1.655362.static.nc already exist in /p/projetos/monan_atm/eduardo.eras/SandBox/scripts_CD-CT/datain/fixed.
+
+[1;32m==>[0m Running Degrib:
+
+
+[1;32m==>[0m Moduling environment for MONAN model...
+
+PBS detected.
+Host detected: ian
+Compiler to be used: intel
+GrADS 2.2.1.oga.1 module loaded
+Type 'grads' to start the Grid Analysis and Display System
+GrADS 2.2.1.oga.1 module loaded
+Type 'grads' to start the Grid Analysis and Display System
+Currently Loaded Modulefiles:
+  1) intel/2025.0                     11) cray-netcdf/4.9.0.15
+  2) craype/2.7.33                    12) cray-parallel-netcdf/1.12.3.15
+  3) cray-dsmml/0.3.0                 13) xpmem/0.2.119-1.3_gef379be13330
+  4) libfabric/1.22.0                 14) grads/2.2.1.oga.1
+  5) craype-network-ofi               15) cdo/2.4.2
+  6) cray-mpich/8.1.31                16) GKlib/1.0.0
+  7) cray-libsci/24.11.0              17) METIS/5.1.0
+  8) PrgEnv-intel/8.6.0               18) cray-libpals/1.6.1
+  9) craype-x86-turin                 19) cray-pals/1.6.1
+ 10) cray-hdf5/1.14.3.3
+
+---- Make Degrib ----
+
+[1;32m==>[0m qsub degrib.bash...
+
+33398.pbs-ha
+
+real	0m29.930s
+user	0m0.227s
+sys	0m1.391s
+[1;32m==>[0m Running Init Atmosphere...
+
+
+[1;32m==>[0m Moduling environment for MONAN model...
+
+PBS detected.
+Host detected: ian
+Compiler to be used: intel
+GrADS 2.2.1.oga.1 module loaded
+Type 'grads' to start the Grid Analysis and Display System
+GrADS 2.2.1.oga.1 module loaded
+Type 'grads' to start the Grid Analysis and Display System
+Currently Loaded Modulefiles:
+  1) intel/2025.0                     11) cray-netcdf/4.9.0.15
+  2) craype/2.7.33                    12) cray-parallel-netcdf/1.12.3.15
+  3) cray-dsmml/0.3.0                 13) xpmem/0.2.119-1.3_gef379be13330
+  4) libfabric/1.22.0                 14) grads/2.2.1.oga.1
+  5) craype-network-ofi               15) cdo/2.4.2
+  6) cray-mpich/8.1.31                16) GKlib/1.0.0
+  7) cray-libsci/24.11.0              17) METIS/5.1.0
+  8) PrgEnv-intel/8.6.0               18) cray-libpals/1.6.1
+  9) craype-x86-turin                 19) cray-pals/1.6.1
+ 10) cray-hdf5/1.14.3.3
+
+---- Make Init Atmosphere ----
+
+[1;32m==>[0m qsub initatmos.bash...
+
+33399.pbs-ha
+
+real	0m42.429s
+user	0m0.229s
+sys	0m1.030s

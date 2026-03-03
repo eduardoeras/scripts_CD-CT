@@ -1,0 +1,35 @@
+
+[1;32m==>[0m Moduling environment for MONAN model...
+
+PBS detected.
+Host detected: ian
+Compiler to be used: intel
+GrADS 2.2.1.oga.1 module loaded
+Type 'grads' to start the Grid Analysis and Display System
+Currently Loaded Modulefiles:
+  1) intel/2025.0                     11) cray-netcdf/4.9.0.15
+  2) craype/2.7.33                    12) cray-parallel-netcdf/1.12.3.15
+  3) cray-dsmml/0.3.0                 13) xpmem/0.2.119-1.3_gef379be13330
+  4) libfabric/1.22.0                 14) grads/2.2.1.oga.1
+  5) craype-network-ofi               15) cdo/2.4.2
+  6) cray-mpich/8.1.31                16) GKlib/1.0.0
+  7) cray-libsci/24.11.0              17) METIS/5.1.0
+  8) PrgEnv-intel/8.6.0               18) cray-libpals/1.6.1
+  9) craype-x86-turin                 19) cray-pals/1.6.1
+ 10) cray-hdf5/1.14.3.3
+
+---- Run Model ----
+
+[1;32m==>[0m Submitting MONAN atmosphere model and waiting for finish before exit... 
+
+[1;32m==>[0m Logs being generated at /p/projetos/monan_atm/eduardo.eras/SandBox/scripts_CD-CT/dataout/logs... 
+
+[1;32m==>[0m qsub model.bash...
+
+33401.pbs-ha
+qsub: 33401.pbs-ha Job to be deleted at request of eduardo.eras@ian05.head.cm.cptec.inpe.br
+
+[1;31m==>[0m ***** ATTENTION *****
+
+[1;31m==>[0m [./3.run_model.bash] At least the file /p/projetos/monan_atm/eduardo.eras/SandBox/scripts_CD-CT/dataout/2025112600/Model/MONAN_DIAG_G_MOD_GFS_2025112600_2025112600.00.00.x655362L55.nc was not generated. 
+

@@ -63,7 +63,7 @@
     config_conv_interval = '#CONFIG_CONV_INTERVAL#'
     config_bucket_update = 'none'
     config_physics_suite = 'mesoscale_reference_monan'
-    config_pbl_scheme = 'bl_ysu'
+    config_pbl_scheme = 'bl_taylor'
     config_sfclayer_scheme = 'sf_monin_obukhov_rev'
 /
 &gf_monan
