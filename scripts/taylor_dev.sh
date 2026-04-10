@@ -23,7 +23,7 @@ echo "Previous data output removed. Back to scripts directory."
 cd ../scripts/
 
 #Run MONAN model with Taylor PBL scheme
-./2.pre_processing.bash GFS 655362 2025112600 12 2>&1 | tee pre_processing_output.txt
-./3.run_model.bash GFS 655362 2025112600 12 2>&1| tee model_run_output.txt
+./2.pre_processing.bash GFS 655362 2025120100 120 2>&1 | tee pre_processing_output.txt
+./3.run_model.bash GFS 655362 2025120100 120 2>&1| tee model_run_output.txt
 
 ################################################################################

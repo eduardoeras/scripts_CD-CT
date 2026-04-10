@@ -26,10 +26,4 @@ Currently Loaded Modulefiles:
 
 [1;32m==>[0m qsub model.bash...
 
-33401.pbs-ha
-qsub: 33401.pbs-ha Job to be deleted at request of eduardo.eras@ian05.head.cm.cptec.inpe.br
-
-[1;31m==>[0m ***** ATTENTION *****
-
-[1;31m==>[0m [./3.run_model.bash] At least the file /p/projetos/monan_atm/eduardo.eras/SandBox/scripts_CD-CT/dataout/2025112600/Model/MONAN_DIAG_G_MOD_GFS_2025112600_2025112600.00.00.x655362L55.nc was not generated. 
-
+154531.pbs-ha
