@@ -39,8 +39,8 @@ echo "_/\__/\__/\__/\__/\__/\__/\__/\__/\__/\__/\__/\__/\__/\__/\__/\__/\_"
 sleep 4
 
 #Run MONAN model with Taylor PBL scheme
-./2.pre_processing.bash GFS 655362 2025120800 48 2>&1 | tee pre_processing_output.txt
-./3.run_model.bash GFS 655362 2025120800 48 2>&1| tee model_run_output.txt
+./2.pre_processing.bash GFS 655362 2025120100 720 2>&1 | tee pre_processing_output.txt
+./3.run_model.bash GFS 655362 2025120100 720 2>&1| tee model_run_output.txt
 
 # Record the end time and calculate elapsed time
 END_TIME=$(date +%s)
