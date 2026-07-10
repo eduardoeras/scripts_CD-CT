@@ -22,7 +22,7 @@ Currently Loaded Modulefiles:
 
 [1;32m==>[0m Scripts_CD-CT last commit: 
 
-commit a5aaf3f60ef9889c82ca7f5141900234bb1e742f
+commit d876d0453fe01e13676b10c492bc7ba27b9ff5d7
 [1;32m==>[0m File x1.655362.static.nc already exist in /p/projetos/monan_atm/eduardo.eras/SandBox/scripts_CD-CT/datain/fixed.
 
 [1;32m==>[0m Running Degrib:
@@ -53,11 +53,11 @@ Currently Loaded Modulefiles:
 
 [1;32m==>[0m qsub degrib.bash...
 
-253249.pbs-ha
+294327.pbs-ha
 
-real	0m32.513s
-user	0m0.220s
-sys	0m1.364s
+real	0m28.397s
+user	0m0.231s
+sys	0m1.528s
 [1;32m==>[0m Running Init Atmosphere...
 
 
@@ -86,8 +86,8 @@ Currently Loaded Modulefiles:
 
 [1;32m==>[0m qsub initatmos.bash...
 
-253250.pbs-ha
+294328.pbs-ha
 
-real	0m40.274s
-user	0m0.251s
-sys	0m0.990s
+real	0m40.118s
+user	0m0.237s
+sys	0m1.019s
