@@ -1,7 +1,6 @@
 datain/fixed
 datain/WPS_GEOG
 dataout
-execs
 .venv
 scripts/GF_ConvPar_nml
 sources
