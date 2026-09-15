@@ -19,7 +19,7 @@ print_status() {
 # Experiment name #
 ###################
 
-EXPERIMENT_NAME="full_simulation_eras_dev"
+EXPERIMENT_NAME="minimum_simulation_eras_dev"
 
 ########################
 # Experiment directory #
@@ -38,16 +38,16 @@ ERASE=1
 ##################################
 
 #Full range simulation
-START_DATE="2025-11-26" 
-END_DATE="2025-12-30"
+#START_DATE="2025-11-26" 
+#END_DATE="2025-12-30"
 
 #Short range simulation
 #START_DATE="2025-12-05" 
 #END_DATE="2025-12-20"
 
 #Minimum range simulattion
-#START_DATE="2025-12-01" 
-#END_DATE="2025-12-02"
+START_DATE="2025-12-01" 
+END_DATE="2025-12-02"
 
 ###################################################
 # Simulation span in hours (e.g., 120 for 5 days) #
@@ -131,10 +131,14 @@ for (( ts = start_ts; ts <= end_ts; ts += 86400 )); do
     sleep 2
     ./${post}
     # Print parcial runtime in HH:MM:SS format
+    CURRENT_TIME=$(date +%s)
+    PARTIAL=$((CURRENT_TIME - START_TIME))
+    echo -e "\n##########################"
     printf "Parcial runtime: %02d:%02d:%02d\n" \
-       $((ELAPSED/3600)) \
-       $((ELAPSED%3600/60)) \
-       $((ELAPSED%60))
+       $((PARTIAL/3600)) \
+       $((PARTIAL%3600/60)) \
+       $((PARTIAL%60))
+    echo -e "##########################\n"
 done
 
 # Move the output data to the experiment directory
