@@ -19,7 +19,7 @@ print_status() {
 # Experiment name #
 ###################
 
-EXPERIMENT_NAME="minimum_simulation_eras_dev"
+EXPERIMENT_NAME="minimum_simulation_srf_dev"
 
 ########################
 # Experiment directory #
