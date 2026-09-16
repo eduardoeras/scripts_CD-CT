@@ -19,7 +19,7 @@ print_status() {
 # Experiment name #
 ###################
 
-EXPERIMENT_NAME="minimum_simulation_srf_dev"
+EXPERIMENT_NAME="full_simulation_srf_dev"
 
 ########################
 # Experiment directory #
@@ -38,16 +38,16 @@ ERASE=1
 ##################################
 
 #Full range simulation
-#START_DATE="2025-11-26" 
-#END_DATE="2025-12-30"
+START_DATE="2025-11-26" 
+END_DATE="2025-12-30"
 
 #Short range simulation
 #START_DATE="2025-12-05" 
 #END_DATE="2025-12-20"
 
 #Minimum range simulattion
-START_DATE="2025-12-01" 
-END_DATE="2025-12-02"
+#START_DATE="2025-12-01" 
+#END_DATE="2025-12-02"
 
 ###################################################
 # Simulation span in hours (e.g., 120 for 5 days) #
